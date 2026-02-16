@@ -175,14 +175,16 @@ const FormSection = () => {
                         <div className="bg-blue-50 p-3 rounded-xl text-blue-500"><MapPin size={24} /></div>
                         <div>
                             <h4 className="font-bold text-slate-900 text-sm">Campus Address</h4>
-                            <p className="text-xs text-slate-500 mt-2 leading-relaxed">Plot No.33, I&T Centre, Street No 22, G-8/4, Islamabad, 44000</p>
+                            <p className="text-xs text-slate-500 mt-2 leading-relaxed">
+                                DHA Defence Mor Boulevard Midland Plaza Lahore</p>
                         </div>
                     </div>
                     <div className="flex items-start gap-4 p-8 bg-white rounded-[2rem] border border-slate-100 shadow-sm">
                         <div className="bg-emerald-50 p-3 rounded-xl text-emerald-500"><Phone size={24} /></div>
                         <div>
                             <h4 className="font-bold text-slate-900 text-sm">Contact Details</h4>
-                            <p className="text-xs text-slate-500 mt-2 leading-relaxed">0330 7159000<br />admissions@avicenna.com.pk</p>
+                            <p className="text-xs text-slate-500 mt-2 leading-relaxed">
+                                03315290212<br />info@dib.ac.pk</p>
                         </div>
                     </div>
                     <div className="flex items-start gap-4 p-8 bg-white rounded-[2rem] border border-slate-100 shadow-sm">
