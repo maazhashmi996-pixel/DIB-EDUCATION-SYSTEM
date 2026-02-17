@@ -176,7 +176,7 @@ const FormSection = () => {
                         <div>
                             <h4 className="font-bold text-slate-900 text-sm">Campus Address</h4>
                             <p className="text-xs text-slate-500 mt-2 leading-relaxed">
-                                DHA Defence Mor Boulevard Midland Plaza Lahore</p>
+                                DHA Defence Mor Boulevard Midland    Plaza Lahore</p>
                         </div>
                     </div>
                     <div className="flex items-start gap-4 p-8 bg-white rounded-[2rem] border border-slate-100 shadow-sm">

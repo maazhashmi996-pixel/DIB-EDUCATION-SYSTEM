@@ -57,7 +57,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <p className="text-slate-400 leading-relaxed text-sm">
-                            Pakistan's premier GED institute, bridging the gap between local potential and global opportunities. Authorized partner for world-class education.
+                            Pakistan's premier GED institute, bridging the gap between local potential and global opportunities. Best partner for world-class education.
                         </p>
                         <div className="flex gap-4">
                             {[Facebook, Instagram, Youtube, Linkedin].map((Icon, i) => (

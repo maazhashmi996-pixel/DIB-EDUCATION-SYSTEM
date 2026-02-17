@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { CheckCircle2, GraduationCap, Users, Globe } from 'lucide-react';
 const features = [
-    "Authorized and Registered by GED & American Council on Education",
+    " GED Preparation Center in Lahore Pakistan",
     "Proven Track Record of Student Success",
     "Modern Learning Environment & Facilities",
     "Dedicated One-on-One Student Counseling",
