@@ -17,7 +17,7 @@ const AdmissionPortal = () => {
 
     // ⚠️ APNA REAL NUMBER YAHAN DALEIN
     // Format: "923XXXXXXXXX" (Bina '+' ya '00' ke)
-    const WHATSAPP_NUMBER = "923001234567";
+    const WHATSAPP_NUMBER = "923315290212";
 
     // Validation Logic
     const validateStep = (currentStep: number) => {
