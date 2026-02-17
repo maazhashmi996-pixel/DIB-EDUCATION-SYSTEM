@@ -54,7 +54,7 @@ const AdmissionPremium = () => {
                                 <ul className="space-y-4">
                                     {[
                                         "Completion of O Levels, Matriculation, or equivalent.",
-                                        "Age 16 or over with strong academic drive.",
+                                        "Age 17 or over with strong academic drive.",
                                         "Willingness to engage in academic mentorship."
                                     ].map((item, idx) => (
                                         <li key={idx} className="flex gap-4 items-start text-slate-600 font-medium italic">
