@@ -54,7 +54,7 @@ const ProgramPage = () => {
                     GED TEST <span className="text-amber-500">SUBJECTS</span>
                 </h1>
                 <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-                    DIB EDUCATION SYSTEM is the only approved GED® Preparation Center in Pakistan.
+                    DIB EDUCATION SYSTEM is GED® Preparation Center in Pakistan.
                     We prepare you for international success with our comprehensive curriculum.
                 </p>
             </div>
@@ -116,7 +116,7 @@ const ProgramPage = () => {
             <div className="max-w-4xl mx-auto px-6 mt-20 text-center bg-slate-900 rounded-[40px] p-12 relative overflow-hidden">
                 <div className="relative z-10">
                     <h2 className="text-3xl md:text-4xl font-black text-white mb-6">Ready to take the DIB EDUCATION SYSTEM?</h2>
-                    <p className="text-slate-400 mb-8">Join the only approved GED center in Pakistan and start your journey today.</p>
+                    <p className="text-slate-400 mb-8">Join the best GED center in Pakistan and start your journey today.</p>
                     <button className="bg-amber-500 text-slate-900 px-10 py-4 rounded-2xl font-black hover:bg-white hover:scale-105 transition-all">
                         ENROLL IN GED PROGRAM
                     </button>

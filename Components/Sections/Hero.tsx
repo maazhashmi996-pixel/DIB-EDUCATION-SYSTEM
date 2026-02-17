@@ -9,7 +9,7 @@ const slides = [
         id: 1,
         image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070',
         heading: "Start Your GED Journey",
-        subheading: "D.Education Zone",
+        subheading: "DIB EDUCATION SYSTEM",
         punchline: "Unlock global opportunities with Pakistan's leading GED institute."
     },
     {
@@ -23,7 +23,7 @@ const slides = [
         id: 3,
         image: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=2070',
         heading: "Join Our Global Community",
-        subheading: "Authorized Prep Partner",
+        subheading: "Best Prep Center",
         punchline: "Experience world-class education with modern facilities and support."
     }
 ];

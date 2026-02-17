@@ -51,7 +51,7 @@ const AdmissionsCTA = () => {
                     {/* ACTION BUTTONS */}
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
                         {/* Apply Now button link update kiya gaya hai */}
-                        <Link href="/admissions#AdmissionPremium" className="w-full sm:w-auto">
+                        <Link href="/Admissions#AdmissionPortal" className="w-full sm:w-auto">
                             <button className="w-full px-8 py-4 bg-amber-500 hover:bg-white text-slate-950 font-black rounded-2xl transition-all flex items-center justify-center gap-2 group shadow-xl active:scale-95">
                                 APPLY NOW <GraduationCap size={20} className="group-hover:scale-125 transition-transform" />
                             </button>
