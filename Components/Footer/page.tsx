@@ -16,6 +16,14 @@ import {
 const Footer = () => {
     const currentYear = new Date().getFullYear();
 
+    // Social Media Links configuration
+    const socialLinks = [
+        { Icon: Facebook, href: "https://facebook.com/yourprofile" },
+        { Icon: Instagram, href: "https://instagram.com/yourprofile" },
+        { Icon: Youtube, href: "https://youtube.com/yourchannel" },
+        { Icon: Linkedin, href: "https://linkedin.com/in/yourprofile" },
+    ];
+
     return (
         <footer className="bg-slate-950 text-white relative overflow-hidden">
             {/* 1. NEWSLETTER STRIP (Top Bar) */}
@@ -45,7 +53,6 @@ const Footer = () => {
                     {/* Brand Profile - Logo Size Increased */}
                     <div className="space-y-8">
                         <div className="flex items-center group">
-                            {/* Size increased to h-20 and w-64 for better visibility */}
                             <div className="relative h-20 w-64 transition-transform group-hover:scale-105 duration-300">
                                 <Image
                                     src="/logo.png"
@@ -59,15 +66,19 @@ const Footer = () => {
                         <p className="text-slate-400 leading-relaxed text-sm">
                             Pakistan's premier GED institute, bridging the gap between local potential and global opportunities. Best partner for world-class education.
                         </p>
+
+                        {/* UPDATED SOCIAL ICONS SECTION */}
                         <div className="flex gap-4">
-                            {[Facebook, Instagram, Youtube, Linkedin].map((Icon, i) => (
+                            {socialLinks.map((social, i) => (
                                 <motion.a
                                     key={i}
-                                    href="#"
+                                    href={social.href}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     whileHover={{ y: -5, color: '#f59e0b', borderColor: '#f59e0b' }}
                                     className="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center text-slate-400 transition-all shadow-sm"
                                 >
-                                    <Icon size={18} />
+                                    <social.Icon size={18} />
                                 </motion.a>
                             ))}
                         </div>
@@ -111,9 +122,7 @@ const Footer = () => {
                                 </div>
                                 <div>
                                     <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest mb-1">Call Us</p>
-                                    <p className="text-slate-200 font-semibold tracking-wide">03315290212
-
-                                    </p>
+                                    <p className="text-slate-200 font-semibold tracking-wide">03315290212</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
@@ -122,8 +131,7 @@ const Footer = () => {
                                 </div>
                                 <div>
                                     <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest mb-1">Email</p>
-                                    <p className="text-slate-200 font-semibold">
-                                        info@dib.ac.pk</p>
+                                    <p className="text-slate-200 font-semibold">info@dib.ac.pk</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
