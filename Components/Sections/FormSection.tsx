@@ -23,7 +23,7 @@ const FormSection = () => {
         e.preventDefault();
 
         // WhatsApp Number aur Message Formatting
-        const phoneNumber = "923307159000";
+        const phoneNumber = "923315290212";
         const message = `*New Admission Inquiry - The Avicenna*%0A%0A` +
             `*Full Name:* ${formData.fullName}%0A` +
             `*City:* ${formData.city}%0A` +
