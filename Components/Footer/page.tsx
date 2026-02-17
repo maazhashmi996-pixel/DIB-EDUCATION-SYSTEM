@@ -18,9 +18,9 @@ const Footer = () => {
 
     // Social Media Links configuration
     const socialLinks = [
-        { Icon: Facebook, href: "https://facebook.com/yourprofile" },
-        { Icon: Instagram, href: "https://instagram.com/yourprofile" },
-        { Icon: Youtube, href: "https://youtube.com/yourchannel" },
+        { Icon: Facebook, href: "https://www.facebook.com/p/DIB-Education-System-61576366372001/" },
+        { Icon: Instagram, href: "https://www.instagram.com/dibeducationsystem/" },
+        { Icon: Youtube, href: "https://www.youtube.com/@DIB727/featured" },
         { Icon: Linkedin, href: "https://linkedin.com/in/yourprofile" },
     ];
 
